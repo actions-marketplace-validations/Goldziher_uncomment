@@ -2,20 +2,13 @@
 version = "5.0"
 name = 'uncomment'
 gitignore = true
+default_layers = ["plugins"]
+gitignore_exclude = [".ai-rulez/.generated-manifest.json"]
 presets = ["claude", "codex", "opencode", "pi"]
 builtins = ['rust', 'default-commands']
 
-[[marketplaces]]
-name = "basemind"
-source = "Goldziher/basemind"
-type = "github"
+[mcp]
+self_server_command = ["ai-rulez", "mcp"]
 
-[[plugins]]
-marketplace = "basemind"
-name = "basemind"
-scope = "project"
-enabled = true
-
-# Pinned by `ai-rulez migrate v5`: the 4.x default. Remove this line to take the v5 default.
-[header]
-hashes = "full"
+[lock]
+include_outputs = false

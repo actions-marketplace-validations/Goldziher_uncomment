@@ -1,0 +1,10 @@
+{
+  "source": "plugin/skills",
+  "skill_count": 1,
+  "files": {
+    "uncomment/SKILL.md": "e7dc4846a93e2bed54f40af28b0c525edf334bb850127a79f093cc416dfa7d01",
+    "uncomment/index.md": "efa7e08d4928ebee819bdaf0d764ef16e577feb9f5a2b16dd0a133cd6c9f75de",
+    "uncomment/references/configuration.md": "3e3a8705bb37ee15a334d388810fd2f0b3621ad9e1daa8df7179d389c84896ba",
+    "uncomment/references/library.md": "739b529279357842128e47031e5b28bf69ca4d10cde097ab008d3cdad254021f"
+  }
+}
